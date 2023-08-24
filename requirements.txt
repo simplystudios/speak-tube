@@ -1,0 +1,4 @@
+vosk
+pywhatkit
+pyttsx3
+pyaudio

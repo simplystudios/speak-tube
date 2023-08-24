@@ -15,7 +15,7 @@ def talk(command):
     engine.runAndWait()
 
 
-model = Model("./unique/voicerecog/vosk-model-small-en-in-0.4")
+model = Model("/vosk-model-small-en-us-0.15")
 recognizer = KaldiRecognizer(model, 44100)
 
 mic = pyaudio.PyAudio()
